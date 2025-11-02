@@ -10,11 +10,8 @@ function Hero() {
         <LabWeek week="10" title="Intro to Next.js">
           <p className="mt-2">
             Github repo:{" "}
-            <a
-              href="https://github.com/cmobley001/react-introduction"
-              target="_blank"
-            >
-              https://github.com/cmobley001/react-introduction
+            <a href="https://github.com/cmobley001/my-next-app" target="_blank">
+              https://github.com/cmobley001/my-next-app
             </a>
           </p>
         </LabWeek>
