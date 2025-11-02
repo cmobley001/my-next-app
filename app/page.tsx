@@ -6,7 +6,6 @@ import Card from "../components/Card";
 import Hero from "../components/Hero";
 import Content from "../components/Content";
 import Flex from "../components/Flex";
-// import LabWeek from "../../components/LabWeek";
 
 const cards = [
   {

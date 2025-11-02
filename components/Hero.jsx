@@ -7,7 +7,7 @@ function Hero() {
         <h1 className="text-2xl font-bold text-center mt-6 gap-y-2 p-6">
           My First React Page
         </h1>
-        <LabWeek week="10" title="Learning React Children">
+        <LabWeek week="10" title="Intro to Next.js">
           <p className="mt-2">
             Github repo:{" "}
             <a
