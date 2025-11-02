@@ -1,4 +1,12 @@
-function LabWeek({ week, title, children }) {
+import React from "react";
+
+interface LabWeekProps {
+  week: string;
+  title: string;
+  children?: React.ReactNode;
+}
+
+function LabWeek({ week, title, children }: LabWeekProps) {
   return (
     <div className="text-center">
       <h2 className="text-lg">

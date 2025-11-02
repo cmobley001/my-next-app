@@ -1,4 +1,9 @@
-function Card({ image, title }) {
+interface CardProps {
+  image: string;
+  title: string;
+}
+
+function Card({ image, title }: CardProps) {
   return (
     <div className="grow w-96 bg-stone-50 flex flex-col rounded-lg hover:scale-105 transition-all shadow-lg">
       <img
